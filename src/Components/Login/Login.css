@@ -1,0 +1,91 @@
+.login-style {
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 100px;
+}
+
+.login-container {
+    padding: 50px 10px 50px 10px;
+
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+
+}
+
+.login-container .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 7px;
+    border: 2px solid purple;
+
+}
+
+.login-container a {
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 7px;
+    background: blue;
+    opacity: 0.7;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.login-container h6 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1c1c1c;
+    opacity: 0.6;
+    padding-left: 20px;
+}
+
+.login-container span {
+    color: blue;
+    opacity: 0.7;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
+.line-befor-div,
+.line-after-div {
+    margin-left: 20px;
+    width: 200px;
+    height: 5px;
+    background: #1c1c1c;
+    opacity: 0.5;
+}
+
+.line-content {
+    font-size: 17px;
+    margin-top: 2px;
+
+}
+.social-btn-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 10px 0px;
+
+}
+.social-login-btn{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(73, 73, 182, 0.718);
+    padding: 10px;
+    color: #fff;
+    font-size: 17px
+}
+.social-login-btn:hover{
+    background: rgb(44, 44, 137);
+}

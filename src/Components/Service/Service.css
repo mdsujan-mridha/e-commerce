@@ -1,0 +1,51 @@
+.card-container{
+    width: 300px;
+    height: 510px;
+    border: 2px solid rgba(0, 0, 0, 0.211);
+  
+    overflow: hidden;
+    scroll-behavior: smooth;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: relative;
+
+}
+.service-img{
+    width: 286px;
+    height: 200px;
+    margin: 8px 7px 8px 7px;
+    border-radius: 3px;
+
+}
+
+.service-title{
+   font-size: 20px;
+   color: black;
+   text-align: center;
+   margin-top: 5px;
+}
+
+.service-price{
+  
+    font-size: 17px;
+    color: black;
+    opacity: 0.7;
+    margin: 7px;
+
+}
+.service-description{
+
+  text-align: start;
+  margin: 8px 7px 8px 7px;
+  color: black;
+  opacity: 0.5;
+
+}
+.service-btn{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 5px;
+    border: none;
+}

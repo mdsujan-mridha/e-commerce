@@ -1,0 +1,44 @@
+ [
+    {
+        "id": "1",
+        "name": "CPU Changes",
+        "Price": " 1500 tk",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "img": "images/services-1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Hard Drive Changes",
+        "Price": " 1000 tk",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+          "img": "images/services-2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "CPU Changes",
+        "Price": "1500 tk ",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "img":"images/services-3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "SSD Changes",
+        "Price": " 1100 tk",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.", 
+         "img": "images/services-4.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Mother Board Changes",
+        "Price": "2000 tk ",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+         "img": "images/services-5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "PowerSupply Repir",
+        "Price": "800 tk",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+          "img": "images/services-6.jpg"
+    }
+]

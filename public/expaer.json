@@ -1,0 +1,25 @@
+[
+    { "id": "1",
+      "name": " Tamanna Sheme",
+       "description": "I'm a computer Engineer, ami saradin study kori , amai amar sami k love kori nah kintu amr sami amak onk love kore",
+       "education":"BSc in CSE",
+       "img":"images/expart-1.jpg"
+    
+    },
+
+    { "id": "2",
+      "name": " Sujan ",
+       "description": "I'm a computer Engineer, ami amar bou k onk love kori kintu amr bou ta buje nah  amr bou saradin amk k boka dey",
+       "education":"BSc in CSE",
+       "img":"images/expart-2.jpg"
+    
+    },
+
+    { "id": "3",
+      "name": " Jon Smith ",
+       "description": "ami R ki korbo vai ami sudu dakhi k kare love kore amr R kono kaj nai",
+       "education":"BSc in CSE",
+       "img":"images/expart-1.jpg"
+    
+    }
+]
