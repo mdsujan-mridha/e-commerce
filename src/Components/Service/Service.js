@@ -6,7 +6,7 @@ import './Service.css'
 
 const Service = ({service}) => {
     // console.log(service);
-    const {name,Price, description, img,id} = service;
+    const {name,Price, description, img, _id} = service;
     const navigate = useNavigate()
     const serviceDeytails = id =>{
             navigate(`/service/${id}`);
@@ -19,7 +19,7 @@ const Service = ({service}) => {
                 <h2 className='service-title'> {name} </h2>
                  <h4 className='service-price'> {Price} </h4>
                  <p className='service-description'> {description} </p>
-                 <Button onClick={()=>serviceDeytails(id)} className='service-btn' variant="primary"> See More </Button>
+                 <Button onClick={()=>serviceDeytails(_id)} className='service-btn' variant="primary"> See More </Button>
 
            </div>
 

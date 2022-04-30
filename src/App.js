@@ -12,6 +12,8 @@ import NotFound from './Components/NotFound/NotFound';
 import ServicesDetils from './Components/ServicesDetils/ServicesDetils';
 import Register from './Components/Register/Register';
 import RequireAuth from './Components/Login/RequireAuth/RequireAuth';
+import AddServices from './Components/AddServices/AddServices';
+import Procced from './Components/Procced/Procced';
 
 function App() {
   return (
@@ -24,10 +26,23 @@ function App() {
         <Route path='/team' element={<Team></Team>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/about' element={
-          <RequireAuth>  {<About></About>} </RequireAuth>
+        <Route path='/about' element={<About></About>}> </Route>
+        <Route path='/procced' element={
+          <RequireAuth>  
+          
+            <Procced></Procced>
+             </RequireAuth>
         } 
         ></Route>
+
+        <Route path='/addservices' element={
+          <RequireAuth>  
+           <AddServices></AddServices>
+            
+             </RequireAuth>
+        } 
+        ></Route>
+
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/*' element={<NotFound></NotFound>}></Route>
       </Routes>
